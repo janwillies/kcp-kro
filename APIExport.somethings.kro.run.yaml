@@ -1,0 +1,8 @@
+apiVersion: apis.kcp.io/v1alpha1
+kind: APIExport
+metadata:
+  name: somethings.kro.run
+spec:
+  latestResourceSchemas:
+  - v2024-12-07.somethings.kro.run
+  - v2024-12-07.resourcegroups.kro.run

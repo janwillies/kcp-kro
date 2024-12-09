@@ -1,0 +1,9 @@
+apiVersion: apis.kcp.io/v1alpha1
+kind: APIBinding
+metadata:
+  name: somethings.kro.run
+spec:
+  reference:
+    export:
+      path: root:provider:kro
+      name: somethings.kro.run
